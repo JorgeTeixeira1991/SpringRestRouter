@@ -1,0 +1,17 @@
+
+17-7-2023
+<br>
+I finally got my first job as a Dev.. I can hardly believe it... I cried.
+<br>
+A year ago I was working construction sites and now I'm doing what I've always dreamed since I was a child.
+I'm so happy!!!
+
+
+__!__
+
+10-10-2023
+<br>
+I sort of learned how DNS works, and during the process I thought: "Why not try to implement it in my personal site?".
+<br>
+So after some research this is now being served from a raspbery pi :) the DNS service I used is <a href="https://freedns.afraid.org/" target="_blank" rel="noopener noreferrer"> https://freedns.afraid.org/ <a>shoutout to them!
+

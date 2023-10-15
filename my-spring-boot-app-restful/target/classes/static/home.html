@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style-home.css" />
+  <link rel="shortcut icon" href="resources/favicon_io/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="resources/favicon_io/favicon.ico" type="image/x-icon" />
+  <script src="https://kit.fontawesome.com/d924d5c238.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="index.js"></script>
+  <title>A Junior Dev</title>
+</head>
+
+<body>
+  <div class="circle"></div>
+  <nav class="title-custom">
+    <div class="logo-title">
+      <div class="headers">
+        <h1>
+          <span class="h1-text">J</span>
+          <span class="h1-text">O</span>
+          <span class="h1-text">R</span>
+          <span class="h1-text">G</span>
+          <span class="h1-text">E</span>
+          <span style="color: red; margin-right: 1px; display: inline-block">&nbsp;</span>
+          <span class="h1-text">T</span>
+          <span class="h1-text">E</span>
+          <span class="h1-text">I</span>
+          <span class="h1-text">X</span>
+          <span class="h1-text">E</span>
+          <span class="h1-text">I</span>
+          <span class="h1-text">R</span>
+          <span class="h1-text">A</span>
+        </h1>
+        <div style="box-shadow: 0 0 300px 1px rgb(73, 157, 235)"></div>
+        <h3>
+          Junior Dev
+          <i class="fa-solid fa-seedling fa-bounce"></i>
+        </h3>
+      </div>
+    </div>
+  </nav>
+  <div class="menu-container">
+    <div class="about">
+      <button id="myBtn">ABOUT ME</button>
+    </div>
+    <div class="projects">
+      <button id="projects-btn">PROJECTS</button>
+    </div>
+    <div class="notes">
+      <button id="notes-btn">NOTES</button>
+    </div>
+  </div>
+
+  <div style="width: 20%; height: 100vh; position: absolute">
+    <div class="bg-left"></div>
+    <div class="bg-left bg2"></div>
+    <div class="bg-left bg3"></div>
+  </div>
+
+  <div style="
+        width: 20%;
+        height: 100vh;
+        position: absolute;
+        align-self: flex-end;
+      ">
+    <div class="bg-right"></div>
+    <div class="bg-right bg2"></div>
+    <div class="bg-right bg3"></div>
+  </div>
+  <div class="contacts-container">
+    <ul>
+      <li>
+        <a href="https://github.com/JorgeTeixeira1991"><i class="fa fa-github"></i></a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/jorgeteixeirajavadev/"><i class="fa fa-linkedin"></i></a>
+      </li>
+      <li>
+        <a href="mailto:jorge555444@gmail.com" target="_blank">
+          <i class="fa fa-google"></i></a>
+      </li>
+      <li>
+        <a href=""> <i class="fa fa-whatsapp"></i></a>
+      </li>
+    </ul>
+  </div>
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span id="close-m-1" class="close">&times;</span>
+      <div id="typedtext"></div>
+    </div>
+  </div>
+
+  <div id="projects-modal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span id="close-m-2" class="close">&times;</span>
+      <div class="grid-container">
+        <div class="card comp1">
+          <img src="resources/Screenshot from 2023-04-26 22-24-07.png" alt="Project 1" />
+          <h3>TCP Multi-Client Chat</h3>
+          <p>
+            A basic tcp server to handle several connections, some text commands
+            have been implemented.
+          </p>
+          <a href="https://github.com/JorgeTeixeira1991/tcp_multiclientchat">View Project</a>
+        </div>
+        <div class="card comp2">
+          <img src="resources/Screenshot from 2023-04-26 22-31-23.png" alt="Project 2" />
+          <h3>Memory Game</h3>
+          <p>A game developed during my bootcamp at Academia de código.</p>
+          <p>The first version used colours, this is a refactored version using pictures instead. </p>
+          <a href="https://github.com/JorgeTeixeira1991/MemoryGame">View Project</a>
+        </div>
+        <div class="card comp3">
+          <img src="resources/Screenshot from 2023-04-27 17-35-31.png" alt="Project 3" />
+          <h3>THIS!</h3>
+          <p>This website is what I used to gain a bit more experience with css.</p>
+          <p>Coding the landing page cube animation was quite the challenge!</p>
+          <a href="index.html ">View Project</a>
+        </div>
+        <div class="card comp4">
+          <img src="project4.jpg" alt="Coming soon!" />
+          <h3>???</h3>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="notes-modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span id="close-m-3" class="close">&times;</span>
+      <p> <br><br></p>
+      <div id="postsContainer"></div>
+    </div>
+  </div>
+</body>
+
+</html>
