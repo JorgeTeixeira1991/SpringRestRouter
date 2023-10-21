@@ -24,7 +24,7 @@ public class MyRestController {
 
   @GetMapping(value = "/cv", produces = MediaType.TEXT_HTML_VALUE)
   public String cv() {
-    Path htmlPath = Paths.get("src/main/resources/static/Markdown.md");
+    Path htmlPath = Paths.get("src/main/resources/static/Markdown CV.md");
     try {
       return Files.readString(htmlPath);
     } catch (IOException e) {
